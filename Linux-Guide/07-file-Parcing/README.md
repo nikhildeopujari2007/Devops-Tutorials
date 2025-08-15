@@ -1,7 +1,8 @@
+# File Parsing Commands in Linux
 
-Here is a cheat sheet for grep, sed, and awk, three powerful command-line utilities for text processing in Unix-like systems:
+Here is a cheat sheet for grep, sed, awk and find four powerful command-line utilities for text processing in Unix-like systems:
 
-**1. grep (Global Regular Expression Print)**
+## **1. grep (Global Regular Expression Print)**
 
     Purpose : 
         Search for patterns in files and print lines matching the pattern.
@@ -24,7 +25,7 @@ Here is a cheat sheet for grep, sed, and awk, three powerful command-line utilit
         grep -v "info" syslog           # Exclude lines containing "info" from syslog
         grep -r "TODO" .                # Find "TODO" recursively in current directory
 
-**2. sed (Stream Editor)**
+## **2. sed (Stream Editor)**
 
     Purpose: 
         Perform text transformations on a stream of text or files.
@@ -49,7 +50,7 @@ Here is a cheat sheet for grep, sed, and awk, three powerful command-line utilit
         sed -n '/pattern/p' file.txt      # Print only lines containing "pattern"
         sed -i 's/old_value/new_value/' config.conf # In-place replacement
 
-**3. awk (Aho, Weinberger, and Kernighan)**
+## **3. awk (Aho, Weinberger, and Kernighan)**
 
     Purpose:
         Text processing language for pattern scanning and processing. Operates on fields within lines.
@@ -71,7 +72,7 @@ Here is a cheat sheet for grep, sed, and awk, three powerful command-line utilit
         awk '/error/ {print NR, $0}' logfile.txt # Print line number and line for "error"
         awk '{sum += $3} END {print sum}' numbers.txt # Calculate sum of third column
    
-**4. find**
+## **4. find**
 
     Purpose: 
        Search for files and directories based on various criteria.
