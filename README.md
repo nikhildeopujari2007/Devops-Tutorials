@@ -1,6 +1,7 @@
-Technical Learning
+## Technical Learning
+
 	1. Devops Basics
-	2. OS Networking
+    2. OS Networking
 	3. Linux
 	4. ShellScripting
 	5. Git, GitHub , GotHub Actions
