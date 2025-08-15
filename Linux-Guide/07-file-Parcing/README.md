@@ -1,15 +1,14 @@
 
 Here is a cheat sheet for grep, sed, and awk, three powerful command-line utilities for text processing in Unix-like systems:
 
-
 **1. grep (Global Regular Expression Print)**
 
-    **Purpose** : 
+    Purpose : 
         Search for patterns in files and print lines matching the pattern.
        
         Syntax: grep [OPTIONS] PATTERN [FILE...]
     
-    **Common Options** :
+    Common Options :
         -i: Ignore case.
         -v: Invert match (print lines not matching).
         -r: Recursive search in directories.
@@ -19,7 +18,7 @@ Here is a cheat sheet for grep, sed, and awk, three powerful command-line utilit
         -w: Match whole words.
         -E: Use extended regular expressions (same as egrep). 
         
-    **Examples** :
+    Examples :
         grep "error" logfile.txt         # Find "error" in logfile.txt
         grep -i "warning" *.log         # Find "warning" (case-insensitive) in all .log files
         grep -v "info" syslog           # Exclude lines containing "info" from syslog
@@ -71,3 +70,19 @@ Here is a cheat sheet for grep, sed, and awk, three powerful command-line utilit
         awk 'NR > 1 {print}' data.csv       # Skip the header (first line)
         awk '/error/ {print NR, $0}' logfile.txt # Print line number and line for "error"
         awk '{sum += $3} END {print sum}' numbers.txt # Calculate sum of third column
+   
+**4. find**
+
+    Purpose: 
+       Search for files and directories based on various criteria.
+    
+       Basic Usage: find [path...] [expression]
+       
+    Common Expressions:
+        -name "pattern": Find files matching pattern (wildcards allowed).
+        -type f: Find regular files.
+        -type d: Find directories.
+        -size +N[cwbkMG]: Find files larger than N (e.g., +1M for >1MB).
+        -mtime +N: Find files modified more than N days ago.
+        -exec command {} \;: Execute command on each found file.
+        -delete: Delete found files.
