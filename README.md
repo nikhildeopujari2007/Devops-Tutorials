@@ -14,6 +14,7 @@
 	11. Ansible
 	12. Docker and ECS
 	13. Kubernetes and EKS
-	14. Python
-	15. Grafana Prometheus
-	16. JIRA, Confluence
+	14. Helm
+ 	15. Python
+	16. Grafana Prometheus
+	17. JIRA, Confluence
