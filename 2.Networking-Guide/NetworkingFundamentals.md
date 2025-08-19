@@ -12,6 +12,13 @@ ________________________________________________________________________________
   	Tier 2: A company like Jio, Airtel, and BSNL that takes the cable on RENT and provides it to their end users
 
   	Tier 3: Small companies that also take internet from TIER 2 companies and provide the internet in a small area like, Jio fiber, You Broadband
+
+3. What Happens When You Put Any URL in Web Browser?
+
+<p align="center">
+<img width="681" height="735" alt="image" src="https://github.com/user-attachments/assets/fe9b6bb5-71d3-41e0-84bb-e8328b6b79f6" />
+</p>
+
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Types of Network:
