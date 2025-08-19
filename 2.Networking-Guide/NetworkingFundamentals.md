@@ -244,6 +244,20 @@ A protocol is a set of rules that govern how data is transmitted and received be
 ##### 1.	HTTP (Hypertext Transfer Protocol)(Port: 80): 
 
       The foundation of data communication for the World Wide Web. It's used to transmit hypertext (like web pages) between web browsers and servers.
+
+HTTP Methods     
+<p align="center">
+ <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/1cc86641-55e2-4041-a885-daf961407d31" />
+</p> 
+
+HTTP responses:
+<p align="center">
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/b4b323ea-6996-465b-8b27-a1c1e56a93e8" />
+</p>
+<p align="center">
+<img width="625" height="830" alt="image" src="https://github.com/user-attachments/assets/965fc158-43be-467f-ad7e-dc6996075dca" />
+</p> 
+
 ##### 2.	HTTPS (Hypertext Transfer Protocol Secure)(Port: 443): 
 
       An encrypted version of HTTP. It uses TLS/SSL to provide a secure connection, protecting sensitive data during transmission.
