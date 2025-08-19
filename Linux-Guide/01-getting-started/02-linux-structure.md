@@ -1,5 +1,9 @@
 # Core components of a Linux Machine
 
+## Architecture of Linux
+
+<img width="459" height="338" alt="image" src="https://github.com/user-attachments/assets/bb3f2957-4d1e-42c2-aebe-4eada2f7554a" />
+
 ```plaintext
 +----------------------------------------------------+
 | User Applications (Vim, Docker, Apache, etc.)     |
@@ -14,7 +18,6 @@
 +----------------------------------------------------+
 | Hardware (CPU, RAM, Disk, Network, Peripherals)   |
 +----------------------------------------------------+
-
 
 (a) Hardware Layer
 
